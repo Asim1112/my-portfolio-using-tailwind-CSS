@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  body{
+    color: #fff;
+    @apply bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700
+  }
+}
+
+@layer components {
+  .menuLink {
+    @apply cursor-pointer hover:text-[#c5c5c5]
+  }
+  
+  .tags {
+    background-color: #4e66b8;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 3px 10px;
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5%;
+  }
+
+  /* Adjust color for specific index using nth-child */
+  .tags:nth-child(2) {
+    background-color: #b36f56;
+  }
+
+  .tags:nth-child(3) {
+    background-color: #6a7c4f;
+  }
+
+  .tags:nth-child(4) {
+    background-color: #008B8B;
+  }
+
+  .tags:last-child {
+    margin-right: 0;
+  }
+}
+
+
+
