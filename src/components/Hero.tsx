@@ -8,9 +8,9 @@ function Hero() {
     >
       <Navbar />
       
-      <div className='container grid lg:grid-cols-2 h-[calc(100vh-60px)]'>
+      <div className="container grid lg:grid-cols-2 h-[calc(100vh-60px)]">
         {/* Profile Picture with Border and Shadow */}
-        <div className='hidden lg:flex justify-center items-center'>
+        <div className="hidden lg:flex justify-center items-center">
           <div className="w-80 h-80 rounded-full shadow-2xl" 
                style={{
                  backgroundImage: "url('/profile3.png')",
@@ -21,7 +21,7 @@ function Hero() {
         </div>
         
         {/* Text Content */}
-        <div className='text-[80px] sm:text-[100px] font-bold leading-tight flex justify-center items-center'>
+        <div className="text-[80px] sm:text-[100px] font-bold leading-tight flex justify-center items-center">
           <div>
             <p data-aos="zoom-in-left">I'm</p>
             <p data-aos="zoom-in-left">Asim</p>
