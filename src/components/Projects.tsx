@@ -41,7 +41,7 @@ function Projects() {
   return (
     <div id="projects" className='container mx-auto pt-32 max-w-5xl' >
       <Heading title = "Projects"/>
-      <div className='grid gap-10 xl:gap-y-10 md:grid-cols-2 lg:grid-cols-2 place-items-stretch'>
+      <div className='grid gap-60 xl:gap-y-10 md:grid-cols-2 lg:grid-cols-2 place-items-stretch'>
         {data.map((el) => (<Card
          key={el.id}
          title={el.title}
